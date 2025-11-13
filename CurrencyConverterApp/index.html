@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <h1>Currency Converter</h1>
+            <div class="input-box">
+                <span>Enter Amount</span>
+                <input type="text" placeholder="Enter Amoint">
+            </div>
+            <div class="Cchanger">
+                <div class="from">
+                    <span>From</span>
+                    <div class="from-box">
+                      <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="from" id="" class="from">
+                            <!-- <option value="in">IN</option>
+                            <option value="jh">Jh</option> -->
+                        </select>
+                    </div>
+                </div>
+                <div class="arrow">
+                 <i class='bxr  bx-swap-horizontal'  style='color:#040404'  ></i> 
+                </div>
+                <div class="to">
+                      <span>To</span>
+                    <div class="to-box">
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to" id="" class="to">
+                            <!-- <option value="in">IN</option>
+                            <option value="jh">Jh</option> -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <p>1USD=80INR</p>
+            </div>
+            <button>Get Exchange Rate</button>
+        </div>
+    </div>
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
