@@ -51,7 +51,7 @@ const teams = [
         name: "GT",
         primary: "Dark Blue",
         secondary: "Golden",
-        trophies: 1
+        trophies: 2
     },
     {
         name: "LSG",
