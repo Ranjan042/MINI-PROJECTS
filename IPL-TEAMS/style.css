@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: column;
+    gap: 30px;
+}
+.box,.trophy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(18, 118, 118);
+   padding: 10px 30px 10px 30px;
+   border-radius: 5px;
+   font-size: 25px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.trophy{
+    visibility: none;
+}
