@@ -35,12 +35,13 @@ Clicking the button triggers a smooth circular progress effect until the downloa
 <li>JavaScript (Click Event + Animation Logic)</li>
 </ul>
 
-<h2 style="color:#333;">📁 Project Structure <br> Download-Button/
-│── index.html
-│── style.css
-│── script.js
-│── assets/
-│ └── icons, images (optional)</h2>
+<h2 style="color:#333;">📁 Project Structure : <br> 
+|__ Download-Button/<br> 
+│── index.html<br> 
+│── style.css<br> 
+│── script.js<br> 
+│── assets/<br> 
+</h2>
 
 
 <h2 style="color:#333;">📜 How It Works</h2>
