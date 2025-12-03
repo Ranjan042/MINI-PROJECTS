@@ -1,66 +1,76 @@
-Download Button Animation 🎉
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download Button README</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; background:#f5f5f5;">
 
-A simple and modern Download Button animation built using HTML, CSS, and JavaScript.
-This project demonstrates how to create an interactive button with animation effects such as progress, icons, and smooth transitions.
+    <div style="max-width: 900px; margin:auto; background:white; padding:25px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
 
-🔗 Live Demo:
-https://ranjan042.github.io/MINI-PROJECTS/Download-Button/
+        <h1 style="text-align:center; color:#333;">Download Button Animation 🎉</h1>
 
-🚀 Features
+        <p>
+            A simple and modern <b>Download Button</b> animation built using 
+            <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.  
+            This project shows how to create an interactive animated button.
+        </p>
 
-Smooth download animation
+        <p>
+            🔗 <b>Live Demo:</b>  
+            <a href="https://ranjan042.github.io/MINI-PROJECTS/Download-Button/" style="color:#007bff;">
+                Click here to view
+            </a>
+        </p>
 
-Progress rotation effect
+        <hr style="margin:25px 0;">
 
-Click interaction
+        <h2 style="color:#444;">🚀 Features</h2>
+        <ul style="margin-left:20px;">
+            <li>Smooth download animation</li>
+            <li>Progress rotation effect</li>
+            <li>Click interaction</li>
+            <li>Minimal modern UI</li>
+            <li>Pure HTML, CSS, JS</li>
+        </ul>
 
-Modern and minimal UI
+        <h2 style="color:#444;">🛠️ Technologies Used</h2>
+        <ul style="margin-left:20px;">
+            <li>HTML5</li>
+            <li>CSS3 (Animations, Variables)</li>
+            <li>JavaScript</li>
+        </ul>
 
-Pure HTML + CSS + JS (No libraries)
-
-🛠️ Technologies Used
-
-HTML5
-
-CSS3 (Animations, Variables, Transitions)
-
-JavaScript (Event Listeners, setInterval, DOM Manipulation)
-
-📂 Project Structure
+        <h2 style="color:#444;">📂 Project Structure</h2>
+        <pre style="background:#eee; padding:15px; border-radius:8px;">
 Download-Button/
 │── index.html
 │── style.css
 │── script.js
 │── assets/
-│     └── icons, images (if any)
+│     └── icons, images
+        </pre>
 
-📜 How It Works
+        <h2 style="color:#444;">📜 How It Works</h2>
+        <p>
+            • The button listens for a click event.<br>
+            • JavaScript triggers a rotation/progress animation.<br>
+            • When the rotation reaches 360°, it shows a "download complete" state.
+        </p>
 
-The button listens for a click event.
+        <h2 style="color:#444;">▶️ How to Run</h2>
+        <ol style="margin-left:20px;">
+            <li>Download or clone the repo.</li>
+            <li>Open <b>index.html</b> in any browser.</li>
+        </ol>
 
-JS starts a rotation/progress animation using CSS variables.
+        <h2 style="color:#444;">✨ Screenshot</h2>
+        <p>Add a screenshot of the button here (optional).</p>
 
-When the animation completes (360°), the icon changes to a downloaded state.
+        <h2 style="color:#444;">📄 License</h2>
+        <p>This project is open-source and free to use.</p>
 
-▶️ How to Run
+    </div>
 
-Download or clone the repository:
-
-git clone https://github.com/ranjan042/MINI-PROJECTS.git
-
-
-Navigate to the folder:
-
-cd MINI-PROJECTS/Download-Button
-
-
-Open index.html in any browser.
-
-✨ Screenshot
-
-(Add an image if needed)
-You can take a screenshot of your button and place it here.
-
-📄 License
-
-This project is open-source and free to use.
+</body>
+</html>
