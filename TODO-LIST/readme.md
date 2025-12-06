@@ -10,11 +10,14 @@ Perfect beginner project for practicing **DOM Manipulation, Events, UI Design an
 ---
 
 ## 📸 Screenshot  
-*(Add your screenshot here — upload image → copy GitHub link)*  
-
+ ![Screenshot of To-Do List](./screenshot.png)
 
 ---
+## 🎥 Demo Video
 
+> 🎬 **Watch Demo:** [Click here to watch](demo.mp4)
+
+---
 ## ⭐ Features  
 
 - ✅ Add new tasks  
@@ -36,20 +39,22 @@ Perfect beginner project for practicing **DOM Manipulation, Events, UI Design an
 ---
 
 ## 📂 Project Structure  
-TODO-LIST/
-├── index.html
-├── style.css
-└── script.js
 
+```bash
+TODO-LIST/   
+├── index.html    
+├── style.css   
+└── script.js
+```  
 
 ---
 
 ## 🧠 How It Works  
 
-- User enters text in the input box  
-- Clicking **Add** adds the task to the list  
-- Each task has a **Delete** button  
-- JavaScript dynamically modifies the DOM using:  
+- User enters a task in the input field  
+- Clicking **Add** inserts the task into the list  
+- Each task includes a **Delete** button  
+- JavaScript dynamically updates the DOM using:  
   - `createElement()`  
   - `appendChild()`  
   - `addEventListener()`  
@@ -59,34 +64,32 @@ TODO-LIST/
 
 ## 🧪 Run Locally  
 
-```bash
+```
 git clone <your-repo-url>
 cd TODO-LIST
+open index.html
+```
+## 🔮 Future Enhancements
 
-🔮 Future Enhancements
+- 🌙 Dark/Light Theme
+- 📝 Edit existing tasks
+- 🎨 Add animations
+- 🔍 Filter: All / Completed / Pending
+- 📅 Add deadlines & priority
 
-🌙 Dark/Light Theme
+---
 
+## 🤝 Contributing
 
-📝 Edit tasks
+1. Fork the repo
+2. Create a new branch:
+   ```
+   git checkout -b feature/your-feature        
+    ```
+3. Commit your changes
+4. Push the branch
+5. Open a pull request
 
-🎨 Add animations
+## 📄 License
 
-🔍 Filter: All / Completed / Pending
-
-📅 Add deadlines & priority
-
-
-🤝 Contributing
-
-Fork the repo
-
-Create a new branch (feature/your-feature)
-
-Commit changes
-
-Open a pull request
-
-📄 License
-
-This project is open-source and free to use.
+-   This project is MIT‑style / open‑source — free to use and modify.
